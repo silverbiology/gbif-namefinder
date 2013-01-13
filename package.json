@@ -1,0 +1,41 @@
+{
+    "name" : "gbif-namefinder",
+    "version" : "0.1.0",
+    "description" : "Node Library for interacting with GBIF's Name Finder API to detect scientific names in OCR. http://tools.gbif.org/namefinder/",
+	"homepage" : "https://github.com/silverbiology/gbif-namefinder",
+    "main" : "./index.js",
+    "directories" : {
+        "lib" : ".",
+        "test" : "test",
+        "example" : "example"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/silverbiology/gbif-namefinder.git"
+    },
+    "keywords" : [
+        "ocr",
+        "darwincore",
+		"darwin core",
+        "gbif",
+		"parser",
+        "parsing",
+        "scientific name",
+		"scientificname",
+		"name finder",
+		"global names",
+		"silverbiology"
+    ],
+    "author" : {
+        "name" : "SilverBiology",
+        "email" : "contact@silverbiology.com",
+        "url" : "http://www.silverbiology.com"
+    },
+    "license" : "",
+    "engine" : {
+        "node" : ">=0.6"
+    },
+	"dependencies": {
+		"needle": "*"
+	}
+}
