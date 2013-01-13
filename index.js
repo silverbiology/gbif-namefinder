@@ -38,7 +38,6 @@ var gbifNameFinder = function( ocrTxt ) {
 		var req = route + "?input=" + input + "&type=" + type + "&format=" + format;
 		needle.get(req, function(error, response, body){
 			if (response.statusCode == 200) {
-//			console.log(body.names);
 				me.lastResults = body.names;
 				if (callback) callback( body.names );
 			} else {
@@ -54,7 +53,6 @@ var gbifNameFinder = function( ocrTxt ) {
 			// Use limit else return all
 			var cnt = limit || this.lastResults.length;
 			for(var i=0; i<cnt; i++) {
-				console.log("item", this.lastResults[i]);
 				tmpList.push( this.lastResults[i].scientificName );
 			}
 		}
