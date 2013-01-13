@@ -7,7 +7,9 @@ http://tools.gbif.org/namefinder/
 install
 ===============
 
+```javascript
   npm install gbif-namefinder
+```
 
 how to use
 ===============
