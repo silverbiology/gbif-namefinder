@@ -5,14 +5,14 @@ Node Library for interacting with GBIF's Name Finder API.
 http://tools.gbif.org/namefinder/
 
 install
-===============
+-----------
 
 ```javascript
   npm install gbif-namefinder
 ```
 
 how to use
-===============
+------------
 
 ```javascript
 var gbifNameFinder = require('gbif-namefinder');
