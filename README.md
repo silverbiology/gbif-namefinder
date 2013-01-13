@@ -6,10 +6,13 @@ http://tools.gbif.org/namefinder/
 
 install
 ===============
-npm install gbif-namefinder
+
+  npm install gbif-namefinder
 
 how to use
 ===============
+
+```javascript
 var gbifNameFinder = require('gbif-namefinder');
 var nf = new gbifNameFinder();
 
@@ -27,3 +30,4 @@ nf.findNamesTF(function( results ) {
   console.log(results);
   console.log( nf.getNames() );
 });
+```
