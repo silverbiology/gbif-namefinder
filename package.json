@@ -1,6 +1,6 @@
 {
     "name" : "gbif-namefinder",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "description" : "Node Library for interacting with GBIF's Name Finder API to detect scientific names in OCR. http://tools.gbif.org/namefinder/",
 	"homepage" : "https://github.com/silverbiology/gbif-namefinder",
     "main" : "./index.js",
@@ -27,7 +27,7 @@
 		"silverbiology"
     ],
     "author" : {
-        "name" : "SilverBiology",
+        "name" : "SilverBiology, LLC",
         "email" : "contact@silverbiology.com",
         "url" : "http://www.silverbiology.com"
     },
